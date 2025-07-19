@@ -1,10 +1,11 @@
 header{
   margin: 0 auto;
+  width: 1280px;
 }
 header #navbar{
   display: flex;
   flex-direction: row;
-  width: 1280px;
+
 }
 #Navbar-primary{
   display: flex;
@@ -39,4 +40,8 @@ header #navbar{
   text-decoration: none;
   color: var(--text-color-secondary);
   font: var(--Span);
+}
+
+#Navbar-secondary a:hover{
+  color: var(--brand-color-light);
 }
