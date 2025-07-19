@@ -31,11 +31,13 @@ header #navbar{
   font: var(--heading1);
 }
 
-#navbar-segundary div{
+#Navbar-segundary{
   display: flex;
   justify-content: space-between;
 }
-#navbar-segunary{
-    color: var(--brand-color-light);
-    font: var(--heading1);
+
+#Navbar-secondary a{
+  text-decoration: none;
+  color: var(--text-color-primary);
+  font: var(--heading2);
 }
