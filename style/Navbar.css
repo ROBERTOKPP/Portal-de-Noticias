@@ -5,9 +5,6 @@ header #navbar{
   display: flex;
   flex-direction: row;
   width: 1280px;
-  margin: 0 auto;
-  /* align-items: center;
-  justify-content: center; */
 }
 #Navbar-primary{
   display: flex;
@@ -31,13 +28,14 @@ header #navbar{
   font: var(--heading1);
 }
 
-#Navbar-segundary{
+#Navbar-secondary{
   display: flex;
   justify-content: space-between;
+  padding: 20px 32px;
 }
 
 #Navbar-secondary a{
   text-decoration: none;
-  color: var(--text-color-primary);
-  font: var(--heading2);
+  color: var(--text-color-secondary);
+  font: var(--Span);
 }
