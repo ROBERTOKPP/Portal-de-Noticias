@@ -31,7 +31,8 @@ header #navbar{
 #Navbar-secondary{
   display: flex;
   justify-content: space-between;
-  padding: 20px 32px;
+  border-block: 1px solid var(--stroke-color);
+  padding: 14px 32px;
 }
 
 #Navbar-secondary a{
