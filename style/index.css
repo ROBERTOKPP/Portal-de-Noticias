@@ -1,3 +1,9 @@
 @import url(global.css);
+<<<<<<< HEAD
 @import url(utility.css);
 @import url(header.css);
+=======
+@import url(Navbar.css);
+@import url(section1.css);
+@import url(section2.css);
+>>>>>>> 3a8503d44b2faa7d5a7faef7f01118f794be0f39
