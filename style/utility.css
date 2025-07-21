@@ -15,6 +15,3 @@
 .grid-col2{
   grid-template-columns: repeat(2, 1fr);
 }
-img{
-  max-width: 100%;
-}
