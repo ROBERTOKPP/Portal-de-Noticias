@@ -15,14 +15,18 @@
 .grid-col2{
   grid-template-columns: repeat(2, 1fr);
 }
-
+.grid-col4{
+  grid-template-columns: repeat(4, 1fr);
+}
 .text-2lg{
   font: var(--heading1);
 }
 .text-lg{
   font: var(--heading2);
 }
-
 .text-sm{
   font: var(--heading3);
+}
+.text-span{
+  font: var(--span)
 }

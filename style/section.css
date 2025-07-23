@@ -1,3 +1,19 @@
+section header{
+  border-top: 1px solid;
+  border-color: var(--stroke-color);
+}
+
+header a{
+  justify-self: end;
+  align-items: center;
+    span{
+      background: no-repeat;
+      background-image: url(../assent/icons/ArrowRight.svg);
+      width: 16px;
+      height: 16px;
+    }
+}
+
 #destaques {
   img{
     height: 100%;
@@ -26,5 +42,13 @@
         padding: 12px;
       }
       }
+  }
+}
+
+#noticias{
+  margin-top: 80px;
+  header{
+    padding-top: 12px
+
   }
 }
