@@ -12,6 +12,7 @@
   --text-color-secondary:#CBD5E1;
 
   --font-family: "Archivo", sans-serif;
+  --heading1: 800 24px/135% var(--font-family);
   --heading2: 800 16px/140% var(--font-family);
   --heading3: 800 14px/140% var(--font-family);
   --Span: 600 14px/145% var(--font-family);
@@ -31,6 +32,33 @@ body{
   padding-inline: 32px;
 }
 
+.content-tag{
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  color:var(--text-color-primary);
+  font: 500 10px var(--font-family);
+  text-transform: uppercase;
+  box-shadow: 0 4px 16px #02061741;
+}
+
+h1{
+  font: var(--heading1);
+  color:inherit;
+}
+h2{
+  font: var(--heading2);
+  color:inherit;
+}
+h2{
+    font: var(--heading2);
+  color:inherit;
+}
+h3{
+    font: var(--heading3);
+  color:inherit;
+}
 a{
     color: inherit;
     text-decoration: none;
