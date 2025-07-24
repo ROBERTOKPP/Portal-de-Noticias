@@ -20,14 +20,15 @@ header a{
       height: 16px;
     }
   }
-
-
+  
 #destaques {
   img{
     height: 100%;
     border-radius: 4px;
     object-fit: cover;
   }
+
+
   .card{
     position: relative;
     &::before{
@@ -71,6 +72,11 @@ header a{
 }
 
 #section3{
+
+  /* img{
+    max-width: 100%;
+  }; */
+
   h2{
     padding-block: 8px 4px;
   }
@@ -81,4 +87,11 @@ header a{
   .destaque-ai img{
     max-width: 176px;
   }
+  .noticias-aside {
+  img{
+    height: 72px;
+    max-width: 72px;
+  }
 }
+}
+

@@ -17,4 +17,17 @@
   justify-content: space-between;
   border-block: 1px solid var(--stroke-color) ;
   margin-bottom: 40px;
+  
+  div{
+    span{
+      background-image: url(../assent/icons/Vector.svg);
+      width: 16px;
+      height: 16px;
+    }
+    &:hover span{
+      background-image: url(..//assent/icons/ArrowRighthover.svg);
+      width: 16px;
+      height: 16px;
+    }
+  }
 }
